@@ -1,3 +1,12 @@
+/*
+ * @Author: leelongxi leelongxi@foxmail.com
+ * @Date: 2024-11-25 18:16:01
+ * @LastEditors: leelongxi leelongxi@foxmail.com
+ * @LastEditTime: 2024-11-25 20:11:04
+ * @FilePath: /openspace_marketing_fe/app/layout.tsx
+ * @Description: 这是默认设置,请设置`customMade`, 打开koroFileHeader查看配置 进行设置: https://github.com/OBKoro1/koro1FileHeader/wiki/%E9%85%8D%E7%BD%AE
+ */
+
 import type { Metadata } from "next";
 import localFont from "next/font/local";
 import "./globals.css";
