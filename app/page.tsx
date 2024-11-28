@@ -2,7 +2,7 @@
  * @Author: leelongxi leelongxi@foxmail.com
  * @Date: 2024-11-25 18:16:01
  * @LastEditors: leelongxi leelongxi@foxmail.com
- * @LastEditTime: 2024-11-25 21:30:22
+ * @LastEditTime: 2024-11-28 11:42:35
  * @FilePath: /openspace_marketing_fe/app/page.tsx
  * @Description: 这是默认设置,请设置`customMade`, 打开koroFileHeader查看配置 进行设置: https://github.com/OBKoro1/koro1FileHeader/wiki/%E9%85%8D%E7%BD%AE
  */
@@ -51,7 +51,7 @@ function TodoPage() {
 
 export default function Home() {
 
-  const [ login, setLogin ] = useState(false)
+  // const [ login, setLogin ] = useState(false)
 
   useEffect(() => {
   //  supabase.auth.signUp({
@@ -73,15 +73,13 @@ export default function Home() {
       password
     }).then(({ data }) => {
       console.log(data);
-      setLogin(true)
+      // setLogin(true)
     })
   }, [])
 
   return (
     <SessionContextProvider supabaseClient={supabase}>
-      {
-        login ? <TodoPage /> : ''
-      }
+      <TodoPage />
     </SessionContextProvider>
   );
 }
