@@ -2,7 +2,7 @@
  * @Author: leelongxi leelongxi@foxmail.com
  * @Date: 2024-11-25 18:16:01
  * @LastEditors: leelongxi leelongxi@foxmail.com
- * @LastEditTime: 2024-11-28 11:42:35
+ * @LastEditTime: 2024-11-28 11:44:26
  * @FilePath: /openspace_marketing_fe/app/page.tsx
  * @Description: 这是默认设置,请设置`customMade`, 打开koroFileHeader查看配置 进行设置: https://github.com/OBKoro1/koro1FileHeader/wiki/%E9%85%8D%E7%BD%AE
  */
@@ -11,7 +11,7 @@
 import { SessionContextProvider, useSession } from '@supabase/auth-helpers-react'
 import { supabase } from '@/app/lib/initSupabase'
 import TodoList from '@/app/components/TodoLists'
-import { useEffect, useState } from 'react';
+import { useEffect } from 'react';
 // import { useEffect, useState } from 'react';
 
 function TodoPage() {
